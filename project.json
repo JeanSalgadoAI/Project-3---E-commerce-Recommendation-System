@@ -1,0 +1,14 @@
+{
+  "number": 3,
+  "title": "Classificação em uma base de saúde simulada",
+  "mode": "classification",
+  "target": "disease",
+  "features": [
+    "age",
+    "bmi",
+    "smoker"
+  ],
+  "objective": "Demonstrar avaliação de classificação binária e comparação com a prevalência de treino.",
+  "limitations": "O alvo foi gerado de forma independente dos atributos. Eventuais diferenças de desempenho neste recorte são variação amostral, não evidência de capacidade preditiva em produção. Não é um modelo clínico, diagnóstico ou recomendação de saúde. O arquivo não contém produtos nem recomendações de comércio eletrônico.",
+  "data": "data/health_data.csv"
+}
